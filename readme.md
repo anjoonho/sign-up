@@ -1,6 +1,6 @@
 # 회원가입 웹 애플리케이션 (Sign-Up Form)
 
-HTML5, CSS3, 바닐라 JavaScript(ES6+)로 구현한 회원가입 폼 및 가입 회원 목록 관리 웹 애플리케이션입니다.
+HTML, CSS, JavaScript로 구현한 회원가입 폼 및 가입 회원 목록 관리 웹 애플리케이션입니다.
 
 ## 주요 기능
 
@@ -20,9 +20,9 @@ HTML5, CSS3, 바닐라 JavaScript(ES6+)로 구현한 회원가입 폼 및 가입
 
 ## 기술 스택
 
-- **HTML5**: 시맨틱 태그 및 BEM 클래스 네이밍 기반 폼 구조 설계
-- **CSS3**: `:root` 커스텀 프로퍼티, Flexbox 레이아웃, `rem` 및 `100dvh` 단위, `600px` 이하 반응형 대응
-- **JavaScript (Vanilla JS)**: DOM 조작, 정규표현식 기반 유효성 검사, `localStorage` 데이터 영속성 관리
+- **HTML**: 시맨틱 태그 및 BEM 클래스 네이밍 기반 폼 구조 설계
+- **CSS**: `:root` 커스텀 프로퍼티, Flexbox 레이아웃, `rem` 및 `100dvh` 단위, `600px` 이하 반응형 대응
+- **JavaScript**: DOM 조작, 정규표현식 기반 유효성 검사, `localStorage` 데이터 영속성 관리
 
 ## 파일 구조
 
