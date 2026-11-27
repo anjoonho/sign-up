@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회원가입</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <main class="signup-app">
+      <h1 class="signup-app__title">회원가입</h1>
+
+      <form id="signup-form" class="signup-form">
+        <div class="signup-form__group">
+          <label for="user-id" class="signup-form__label">사용자 아이디</label>
+          <div class="signup-form__field">
+            <div class="signup-form__control-row">
+              <div class="signup-form__input-box">
+                <input
+                  type="text"
+                  id="user-id"
+                  class="signup-form__input"
+                  placeholder="영문 필수·숫자 선택 (4~12자)"
+                />
+              </div>
+              <button type="button" id="check-id-btn" class="signup-form__check-btn">
+                중복 확인
+              </button>
+            </div>
+            <p id="id-error" class="signup-form__error"></p>
+          </div>
+        </div>
+
+        <div class="signup-form__group">
+          <label for="user-pw" class="signup-form__label">비밀번호</label>
+          <div class="signup-form__field">
+            <div class="signup-form__input-box">
+              <input
+                type="password"
+                id="user-pw"
+                class="signup-form__input"
+                placeholder="비밀번호를 입력하세요"
+              />
+            </div>
+            <p id="pw-error" class="signup-form__error"></p>
+          </div>
+        </div>
+
+        <div class="signup-form__group">
+          <label for="user-pw2" class="signup-form__label">비밀번호 확인</label>
+          <div class="signup-form__field">
+            <div class="signup-form__input-box">
+              <input
+                type="password"
+                id="user-pw2"
+                class="signup-form__input"
+                placeholder="비밀번호를 한 번 더 입력하세요"
+              />
+            </div>
+            <p id="pw2-error" class="signup-form__error"></p>
+          </div>
+        </div>
+
+        <div class="signup-form__group">
+          <label for="user-email" class="signup-form__label">이메일 주소</label>
+          <div class="signup-form__field">
+            <div class="signup-form__input-box">
+              <input
+                type="email"
+                id="user-email"
+                class="signup-form__input"
+                placeholder="example@domain.com"
+              />
+            </div>
+            <p id="email-error" class="signup-form__error"></p>
+          </div>
+        </div>
+
+        <div class="signup-form__actions">
+          <button type="submit" id="signup-submit-btn" class="signup-form__submit-btn">
+            가입하기
+          </button>
+        </div>
+      </form>
+
+      <section class="user-section">
+        <h2 class="user-section__title">가입된 회원 목록</h2>
+        <ul id="user-list" class="user-list"></ul>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
